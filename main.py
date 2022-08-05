@@ -1,7 +1,7 @@
 import telebot 
 import requests 
 from telebot import types 
-Token  = "5016941819:AAHwriZD-Wp2mz91fXTY62eTttNQjvbkijY"
+Token  = "5597319843:AAE0aEjolfWE9fbiWYl_fUj3Tb7QfGRO7LE"
 bot = telebot.TeleBot(Token)
 @bot.message_handler(commands=["start"])
 def A(message):
@@ -15,8 +15,8 @@ def A(message):
 *➖ 👋اهلا عزيزي*  [{}](tg://settings/)       
 *➖ أيدك :* [{}](tg://settings/)            
 *➖ يوزرك ان وجد :* @{}
-*➖ قناه المبرمج :* ["𝙰𝙻𝙾𝚂𝙷"𝙿𝚈𝚃𝙷𝙾𝙽"](https://t.me/DtDtDt)
-*➖ المبرمج :* [Alosh](https://t.me/aaalaaa)""".format(Name,Id,User),parse_mode="markdown",disable_web_page_preview=True,reply_markup=A)
+*➖ قناه المبرمج :* ["By"𝙿𝚈𝚃𝙷𝙾𝙽"](https://t.me/oyurl)
+*➖ المبرمج :* [BoSS](https://t.me/IIlAndylII)""".format(Name,Id,User),parse_mode="markdown",disable_web_page_preview=True,reply_markup=A)
 @bot.callback_query_handler(func=lambda call: True)
 def Hhh(call):
     if call.data == "A":
@@ -51,8 +51,8 @@ def ali(message):
 *ᯓ 𝙳𝙰𝚃𝙴 :* {data}
 *ᯓ ʟɪɴᴋ :* [Link](https://instagram.com/{message.text})
 *⌯ ⌯ ⌯ ⌯ ⌯ ⌯ ⌯ ⌯ ⌯ ⌯ ⌯ ⌯ ⌯ ⌯ ⌯*
-*Dv :* ["𝙰𝙻𝙾𝚂𝙷"𝙿𝚈𝚃𝙷𝙾𝙽"](https://t.me/DtDtDt)
-*By :* [Alosh](https://t.me/aaalaaa)   
+*Dv :* ["By"𝙿𝚈𝚃𝙷𝙾𝙽"](https://t.me/oyurl)
+*By :* [BoSS](https://t.me/IIlAndylII)   
                           """, parse_mode="markdown",disable_web_page_preview="true")
     except:
                  
